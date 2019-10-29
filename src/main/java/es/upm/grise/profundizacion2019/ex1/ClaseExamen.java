@@ -5,18 +5,21 @@ public class ClaseExamen {
 	public float metodoAProbar(int a, int b) {
 		
 		float result = 0;
-		
+		//nodo1
 		while( a > b) {
+			//nodo2
 			a--;
 		}
-		
+		//nodo 3
 		if (a <= b) {
+			//nodo 4
 			result = 0;
 		}
 		else {
+			//nodo 5
 			result = b;
 		}
-		
+		//nodo 6
 		return result;
 	}
 
